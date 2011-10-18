@@ -3,7 +3,7 @@
 
 Name:             apache-%{short_name}
 Version:          1.3.1
-Release:          4
+Release:          5
 Summary:          Apache Commons Validator
 Group:            Development/Java
 License:          ASL 2.0
