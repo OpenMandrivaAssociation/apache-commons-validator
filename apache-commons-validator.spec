@@ -1,9 +1,13 @@
 %{?_javapackages_macros:%_javapackages_macros}
 %global short_name      commons-validator
 
+%if 0%{?fedora}
+%else
+Epoch:            1
+%endif
 Name:             apache-%{short_name}
 Version:          1.4.0
-Release:          6.1%{?dist}
+Release:          6.0%{?dist}
 Summary:          Apache Commons Validator
 
 License:          ASL 2.0
