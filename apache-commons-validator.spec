@@ -11,7 +11,7 @@ Release:          6.0%{?dist}
 Summary:          Apache Commons Validator
 
 License:          ASL 2.0
-URL:              http://commons.apache.org/validator/
+URL:              https://commons.apache.org/validator/
 Source0:          http://www.apache.org/dist/commons/validator/source/%{short_name}-%{version}-src.tar.gz
 BuildArch:        noarch
 
